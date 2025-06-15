@@ -6,58 +6,136 @@
 </head>
 <style>
     .container {
-      display: ;
-      justify-content: center;
+      display: inline-block;
       align-items: center;
-      gap: 20px;
-      padding: 20px;
+      width: 100%;
     }
     .image-container {
-        text-align: center;
-
+      display: inline-block;
+;
     }
-    .containers {
-      display: flex;
-      justify-content: center;
+   .containers {
+      display: inline-block;
       align-items: center;
-      gap: 20px;
-      padding: 20px;
     }
-    .image-container  {
+    .left {
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+    .center {
+        background-color: #f1f1f1;
+        padding: 16px;
+        text-align: right;
+    }
+    .right {
+        background-color: #f1f1f1;
+        padding: 16px;
+        text-align: right;
+    }
+    .image{
+        width: 200px;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 120px;
+        display: block;
+        }
+    .black {
+       background-color: black;
+       justify-content: center;
+        padding: 10px 20px;
+        margin-top: 30px;
+        color: white;
+}
+    .image-container h4 {
         text-align: center;
+        font-size: 20px;
+        color: black;
     }
-
+    .image-container p {
+        text-align: center;
+        font-size: 16px;
+        color: black;
+    }
+    .pages {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .containers a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: white;
+    }
 </style>
 <body>
+<div style="display: inline;" class="left">☰</div>
+<div style="display: inline; position: absolute; right: 100px; " class="center">Mail</div>
+<div style="display: inline; position: absolute; right: 0px;" class="right">My Food</div>
 <div class="container">
     <div class="image-container">
-    <img src="images.jpeg" alt="IronMan" class="image" style="width: 200px; height: 300px;">
-    <h1>IronMan</h1>
-    <p>Robert Downey JR</p>
+    <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="IronMan" class="image" style="width: 200px; height: 300px;">
+    <h4>The Perfect Sandwich</h4> 
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
     </div>
-    <!-- <p>Strange Universe 1</p> -->
      <div class="image-container">
-    <img src="images (1).jpeg" alt="Thor" class="image" style="width: 200px; height: 300px;">
-    <h1>Thor</h1>
-    <p>Chris Hemsworth</p>
+    <img src="https://www.w3schools.com/w3images/steak.jpg" alt="Thor" class="image" style="width: 200px; height: 300px;">
+    <h4>Let Me Tell You About This Steak</h4>
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
     </div>
     <div class="image-container">
-    <img src="download.jpeg" alt="ScarletWitch" class="image" style="width: 200px; height: 300px;">
-    <h1>ScarletWitch</h1>
-    <p>Elizabeth Olsen</p>
+    <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="ScarletWitch" class="image" style="width: 200px; height: 300px;">
+    <h4>Cherries Interupted</h4>
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
     </div>
     <div class="image-container">
-    <img src="doctor_strange_no_background.png" alt="Doctor Strange" class="image" style="width: 200px; height: 300px;">
-    <h1>Doctor Strange</h1>
-    <p>Benedict Cumberbatch</p>
+    <img src="https://www.w3schools.com/w3images/wine.jpg" alt="Doctor Strange" class="image" style="width: 200px; height: 300px;">
+    <h4>Robust Wine & Vegitable Pasta</h4>
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
+    </div> 
+    <div class="container">
+    <div class="image-container">
+    <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="IronMan" class="image" style="width: 200px; height: 300px;">
+    <h4>The Perfect Sandwich</h4> 
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
     </div>
-    <div class="break"></div>
-  <div class="containers">
-    <div class="image-containers"> 
-    <img src="images (2).jpeg" alt="Hawkeye" class="image" style="width: 200px; height: 300px;">
-    <h1>Hawkeye</h1>
-    <p>Jeremy Renner</p>
+     <div class="image-container">
+    <img src="https://www.w3schools.com/w3images/steak.jpg" alt="Thor" class="image" style="width: 200px; height: 300px;">
+    <h4>Let Me Tell You About This Steak</h4>
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
     </div>
+    <div class="image-container">
+    <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="ScarletWitch" class="image" style="width: 200px; height: 300px;">
+    <h4>Cherries Interupted</h4>
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
+    </div>
+    <div class="image-container">
+    <img src="https://www.w3schools.com/w3images/wine.jpg" alt="Doctor Strange" class="image" style="width: 200px; height: 300px;">
+    <h4>Robust Wine & Vegitable Pasta</h4>
+    <p>Just some random text, lorem </p>
+      <p>ipsum text praesent tincidunt </p>
+      <p>ipsum lipsum.</p>
+    </div> 
+    <div class="pages">
+    <div class="containers">
+          <a href="#" class="black">1</a>
+          <a href="#" class="black">2</a>
+          <a href="#" class="black">3</a>
+          <a href="#" class="black">4</a>
+          <a href="#" class="black">5</a>
     </div>
 </div>
 </body>
